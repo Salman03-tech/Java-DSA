@@ -1,3 +1,5 @@
+//Output in Java
+
 public class NextLine {
     public static void main(String args[]){
         System.out.println("Hello"); //will print next word after one line space
