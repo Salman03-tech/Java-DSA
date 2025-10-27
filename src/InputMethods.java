@@ -10,6 +10,11 @@ public class InputMethods {
 //        String singleWord = scan.next();
 //        System.out.println(singleWord);
 
+
+/*        scan.next() does not consume the newline character left in the input buffer.
+          When you call scan.nextLine() right after it, it reads that leftover newline —
+          resulting in an empty string for includesSpace.*/
+
         String inculdesSpace = scan.nextLine();
         System.out.println(inculdesSpace);
 
